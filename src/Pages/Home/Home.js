@@ -2,16 +2,16 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { log } from "loglevel";
 import { Logo } from "../../Assets";
 
 const Home = () => {
   return (
     <div>
-      <section>
-        <Navbar />
-        <div className="container-fluid" id="top-container">
-          {/* TOP SECTION NO 1 */}
+      <Navbar />
+      <section className="Topcontainer">
+        {" "}
+        {/* TOP SECTION NO 1 */}
+        <div className="container-fluid" >
           <div id="image-container">
             <img src={Logo} alt="Midas Cravings" id="home-image" />
             <h2>MIDAS CRAVINGS</h2>
@@ -34,8 +34,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-
+      </section>{" "}
+      {/* TOP SECTION NO 1 ENDS*/}
       <Footer />
     </div>
   );
