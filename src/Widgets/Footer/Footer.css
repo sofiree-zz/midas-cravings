@@ -1,0 +1,15 @@
+ #footer-container{
+    margin: 20px auto 20px auto;
+ }
+ 
+ hr {
+    border:none;
+    border-top:3px dotted #000; 
+    color:#fff;
+    background-color:#fff;
+    height: 1px;
+    width:10%;
+    transform: rotate(90deg);
+  } 
+
+  

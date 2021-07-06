@@ -1,5 +1,6 @@
 import { Navbar } from "./Components"
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { Footer } from "./Widgets"
 
 
 const App =()=>{
@@ -8,7 +9,8 @@ const App =()=>{
       <Router>
         <Switch>
             <Route exact path="/">
-              <Navbar/>
+              {/* <Navbar/> */}
+              <Footer/>
             </Route>
         </Switch>
       </Router>
