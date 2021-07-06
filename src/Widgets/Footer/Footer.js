@@ -3,7 +3,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="page-footer fixed-bottom" id="footer-layout">
+    {/* fixed-bottom */}
+      <footer className="page-footer " id="footer-layout">
         <div id="footer-holder">
           <div className="container-fluid  text-md-left" id="footer-container">
             <div className="row text-center" id="footer-container1">

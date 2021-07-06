@@ -1,21 +1,18 @@
-import { Navbar } from "./Components"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
-import { Footer } from "./Widgets"
+import { Home } from "./Pages";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-
-const App =()=>{
-  return(
+const App = () => {
+  return (
     <>
       <Router>
         <Switch>
-            <Route exact path="/">
-              {/* <Navbar/> */}
-              <Footer/>
-            </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
         </Switch>
       </Router>
     </>
   );
-}
+};
 
 export default App;
