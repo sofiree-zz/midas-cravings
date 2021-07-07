@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { Logo} from "../../Assets";
+import { Aboutus, Logo } from "../../Assets";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <section className="Topcontainer">
         {" "}
         {/* TOP SECTION NO 1 */}
-        <div className="container-fluid" id="containerfluid">
+        <div className="container-fluid" id="home-containerfluid">
           <div id="image-container">
             <img src={Logo} alt="Midas Cravings" id="home-image" />
             <h2>MIDAS CRAVINGS</h2>
@@ -36,6 +36,42 @@ const Home = () => {
         </div>
       </section>{" "}
       {/* TOP SECTION NO 1 ENDS*/}
+      <section>
+        {/* SECTION NO 2 STARTS */}
+
+        <div className="container-fluid" id="about-containerfluid">
+          <div className="container" id="about-container">
+            <div className="row text-center" id="about-row">
+              <div className="col-lg-6">
+                <div className="Abouttext">
+                  <h1>About Midas Cravings</h1>
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean dictum purus tortor,
+                  </h4>
+                  <p>
+                    Donec faucibus non dolor viverra pellentesque. Donec nec
+                    quam pharetra, iaculis urna eu, tristique leo. Integer
+                    ornare commodo vehicula. Etiam nec luctus sapien, et
+                    tincidunt metus. Fusce dapibus efficitur sapien, a efficitur
+                    est mattis et. Morbi odio diam, convallis vitae dui id,
+                    efficitur hendrerit risus. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis
+                    egestas.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-5">
+                <div className="Aboutimage">
+                  <img src={Aboutus} alt="" id="about-image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SECTION NO 2 ENDS */}
+      </section>
       <Footer />
     </div>
   );

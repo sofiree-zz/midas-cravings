@@ -19,8 +19,8 @@
   opacity: 0.75;
 }
 
-#containerfluid{
-    position: relative;
+#home-containerfluid {
+  position: relative;
 }
 
 #image-container {
@@ -34,4 +34,30 @@
 
 h2 {
   padding-top: 15px;
+}
+#about-containerfluid {
+  padding: 40px;
+}
+#about-container {
+  padding: 128px 32px;
+}
+#about-row {
+  margin: auto;
+  height: 690.5px;
+}
+.Abouttext {
+  padding: 0px 16px;
+}
+
+.Abouttext h1 {
+  margin-bottom: 32px;
+}
+.Abouttext h4 {
+  margin-bottom: 20px;
+}
+.Abouttext p {
+  margin-bottom: 20px;
+}
+#about-image {
+  max-width: 100%;
 }
