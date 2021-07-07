@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { Logo } from "../../Assets";
+import { Logo} from "../../Assets";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <section className="Topcontainer">
         {" "}
         {/* TOP SECTION NO 1 */}
-        <div className="container-fluid" >
+        <div className="container-fluid" id="containerfluid">
           <div id="image-container">
             <img src={Logo} alt="Midas Cravings" id="home-image" />
             <h2>MIDAS CRAVINGS</h2>

@@ -1,21 +1,37 @@
-.Topcontainer{
-    background-image: url("../../Assets/Images/Tacoshop.jpg") ;
-    background-size: cover;
-    
+.Topcontainer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.Topcontainer::before {
+  content: "";
+  background-image: url("../../Assets/Images/Tacoshop.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
 
-#image-container{
+#containerfluid{
+    position: relative;
+}
 
+#image-container {
   text-align: center;
   max-width: 100%;
-  padding: 14% 0px 15px 0px;
+  padding: 15% 0px 15px 0px;
 }
-#home-image{
-    max-width: 30%;    
-}
-
-h2{
-    padding-top: 15px;
+#home-image {
+  max-width: 30%;
 }
 
+h2 {
+  padding-top: 15px;
+}
