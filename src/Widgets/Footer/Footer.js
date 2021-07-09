@@ -15,7 +15,7 @@ const Footer = () => {
                 <h6>Friday-Sunday</h6>
                 <span>4-10pm</span>
               </section>
-              <hr className="col" />
+              <hr className="col" id="footer-divider" />
               <section className="col" >
                 <h6>09055506102</h6>
                 <h6>7 Achi Street Independence Layout, Enugu. 400001.</h6>

@@ -35,15 +35,19 @@
 h2 {
   padding-top: 15px;
 }
+/*  */
 #about-containerfluid {
   padding: 40px;
+  background-color: blue;
 }
 #about-container {
   padding: 128px 32px;
+  background-color: blueviolet;
 }
 #about-row {
   margin: auto;
   height: 690.5px;
+  background-color: brown;
 }
 .Abouttext {
   padding: 0px 16px;
@@ -60,4 +64,37 @@ h2 {
 }
 #about-image {
   max-width: 100%;
+}
+#divider {
+  margin: auto;
+  border: none;
+  border-top: 2px dotted #000;
+  color: #fff;
+  background-color: #fff;
+  transform: rotate(90deg);
+  max-width: 100px !important ;
+  margin-top: 20px !important ;
+}
+
+#divider2 {
+  border: none;
+  border-top: 2px dotted #000;
+  color: #fff;
+  background-color: #fff;
+  max-width: 150px !important ;
+}
+/*  */
+.cusineimage{
+  max-width: 100%;
+  margin-top: -9rem;
+  margin-left: -9rem;
+  transform: rotate(45deg);
+}
+
+#cusine-image{
+  max-width: 100%;
+  
+  margin-top: -9rem;
+ 
+
 }
