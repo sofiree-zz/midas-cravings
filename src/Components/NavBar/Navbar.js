@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from "react";
+// import React, {useEffect, useState} from "react";
 import { NavLink } from "react-router-dom";
 import { Logo } from "../../Assets";
 import "./Navbar.css";
 const Navbar = () => {
-  const [state, setState] = useState({});
+  // const [state, setState] = useState({});
   return (
     <header id="layout-header" className="header-primary">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
