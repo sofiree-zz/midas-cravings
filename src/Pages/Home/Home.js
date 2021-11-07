@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { Logo } from "../../Assets";
+import { Logo, MeatChips, SpiltOats } from "../../Assets";
 
 const Home = () => {
   return (
@@ -65,7 +65,7 @@ const Home = () => {
 
               <div className="col-lg-5">
                 <div className="Aboutimage">
-                  <img src={ ""} alt="" id="about-image" />
+                  <img src={SpiltOats} alt="" id="about-image" />
                 </div>
               </div>
               <hr id="divider2" />
@@ -81,12 +81,12 @@ const Home = () => {
             <div className="row text-center" id="cusine-row">
             <div className="col-lg-5">
                 <div className="cusineimage">
-                  <img src={""} alt="" id="cusine-image" />
+                  <img src={MeatChips} alt="" id="cusine-image" />
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="cusinetext">
-                  <h1>About Midas Cravings</h1>
+                  <h1>Our Caterings</h1>
                   <h4>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean dictum purus tortor,
