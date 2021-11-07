@@ -106,22 +106,20 @@ h2 {
   margin-bottom: 20px;
 }
 
-
-
 /* responsive site// media query */
-@media only screen and (max-width: 991px){
-  #about-container{
+@media only screen and (max-width: 991px) {
+  #about-container {
     padding-top: 0px;
   }
-  #cusine-image{
+  #cusine-image {
     margin-top: 0rem;
   }
-  #cusine-row{
+  #cusine-row {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 9rem;
   }
-  #divider2{
+  #divider2 {
     display: none;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { Logo, MeatChips, SpiltCoffee, SpiltOats } from "../../Assets";
+import { Logo, SpiltCoffee, SpiltOats } from "../../Assets";
 
 const Home = () => {
   return (
