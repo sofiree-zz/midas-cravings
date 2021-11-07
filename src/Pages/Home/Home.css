@@ -84,11 +84,44 @@ h2 {
   max-width: 150px !important ;
 }
 /*  */
-.cusineimage {
-  max-width: 100%;
+#cusine-row {
+  margin: auto;
 }
 
 #cusine-image {
   max-width: 100%;
+  max-height: auto;
   margin-top: -9rem;
+}
+.cusinetext {
+  padding: 0px 16px;
+}
+.cusinetext h1 {
+  margin-bottom: 32px;
+}
+.cusinetext h4 {
+  margin-bottom: 20px;
+}
+.cusinetext p {
+  margin-bottom: 20px;
+}
+
+
+
+/* responsive site// media query */
+@media only screen and (max-width: 991px){
+  #about-container{
+    padding-top: 0px;
+  }
+  #cusine-image{
+    margin-top: 0rem;
+  }
+  #cusine-row{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 9rem;
+  }
+  #divider2{
+    display: none;
+  }
 }

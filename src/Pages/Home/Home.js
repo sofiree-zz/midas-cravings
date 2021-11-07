@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
-import { Logo, MeatChips, SpiltOats } from "../../Assets";
+import { Logo, MeatChips, SpiltCoffee, SpiltOats } from "../../Assets";
 
 const Home = () => {
   return (
@@ -81,7 +81,7 @@ const Home = () => {
             <div className="row text-center" id="cusine-row">
               <div className="col-lg-5">
                 <div className="cusineimage">
-                  <img src={MeatChips} alt="" id="cusine-image" />
+                  <img src={SpiltCoffee} alt="" id="cusine-image" />
                 </div>
               </div>
               <div className="col-lg-6">

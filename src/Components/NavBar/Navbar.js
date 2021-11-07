@@ -6,7 +6,7 @@ const Navbar = () => {
   // const [state, setState] = useState({});
   return (
     <header id="layout-header" className="header-primary">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a href="/" className="navbar-brand">
             <img src={Logo} alt="Midas Cravings" width="100" height="40" />
@@ -24,6 +24,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           {/* //toogler end// */}
+
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-list">
               <li className="nav-item">
