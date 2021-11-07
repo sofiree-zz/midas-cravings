@@ -4,6 +4,7 @@ import { Navbar } from "../../Components";
 import { Footer } from "../../Widgets";
 import { Logo, SpiltCoffee, SpiltOats } from "../../Assets";
 
+
 const Home = () => {
   return (
     <div>
@@ -65,7 +66,7 @@ const Home = () => {
 
               <div className="col-lg-5">
                 <div className="Aboutimage">
-                  <img src={SpiltOats} alt="" id="about-image" />
+                  <img src={SpiltOats} alt="" id="about-image" className="animate__animated animate__fadeInRightBig" />
                 </div>
               </div>
               <hr id="divider2" />
@@ -81,7 +82,7 @@ const Home = () => {
             <div className="row text-center" id="cusine-row">
               <div className="col-lg-5">
                 <div className="cusineimage">
-                  <img src={SpiltCoffee} alt="" id="cusine-image" />
+                  <img src={SpiltCoffee} alt="" id="cusine-image" className="animate__animated animate__fadeInLeftBig"/>
                 </div>
               </div>
               <div className="col-lg-6">
