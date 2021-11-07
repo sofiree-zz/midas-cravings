@@ -20,6 +20,7 @@ const Navbar = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="toggler-button"
           >
             <span className="navbar-toggler-icon"></span>
           </button>

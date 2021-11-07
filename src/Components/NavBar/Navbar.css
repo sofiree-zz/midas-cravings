@@ -24,7 +24,11 @@ header {
     transition: opacity 0.5s ease-in-out;
 }
 
-
+#toggler-button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
 
 
 .menu-modal-header {
@@ -32,12 +36,20 @@ header {
 }
 
 @media only screen and (max-width: 991px){
-    .menu-modal-header {
-        display: flex;
+    #navbar-list{
+        margin: 0px !important;
+        padding: 0px !important;
         align-items: center;
-        padding: 15px
     }
-    /* .navbar-brand{
-        display: none;
-    } */
+    #navbar-list li{
+        border-bottom: 2px solid black;
+    }
+    .navbar-brand{
+        transform: none;
+        transition: none;
+        top: 0%;
+        left: 0%;
+        position: relative;
+       
+    }
 } 
