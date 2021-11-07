@@ -79,7 +79,7 @@ const Home = () => {
         <div className="container-fluid" id="cusine-containerfluid">
           <div className="container" id="cusine-container">
             <div className="row text-center" id="cusine-row">
-            <div className="col-lg-5">
+              <div className="col-lg-5">
                 <div className="cusineimage">
                   <img src={MeatChips} alt="" id="cusine-image" />
                 </div>
@@ -104,7 +104,6 @@ const Home = () => {
                 </div>
               </div>
 
-              
               <hr id="divider2" />
             </div>
           </div>

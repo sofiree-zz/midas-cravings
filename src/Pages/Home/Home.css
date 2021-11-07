@@ -38,16 +38,16 @@ h2 {
 /*  */
 #about-containerfluid {
   padding: 40px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 #about-container {
   padding: 128px 32px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 #about-row {
   margin: auto;
   height: 690.5px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 .Abouttext {
   padding: 0px 16px;
@@ -84,14 +84,11 @@ h2 {
   max-width: 150px !important ;
 }
 /*  */
-.cusineimage{
+.cusineimage {
   max-width: 100%;
 }
 
-#cusine-image{
+#cusine-image {
   max-width: 100%;
-  
   margin-top: -9rem;
- 
-
 }
