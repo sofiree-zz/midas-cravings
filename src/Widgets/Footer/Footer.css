@@ -1,5 +1,5 @@
 #footer-container {
-  width: fit-content;
+  /* width: fit-content; */
   margin: 20px auto 20px auto;
 }
 
@@ -8,6 +8,11 @@
 }
 #footer-container2 {
   padding: 0px 0px 25px 30px;
+}
+
+#footer-copyright p{
+ text-align: right;
+ line-height: 78px;
 }
 
 #footer-divider{
