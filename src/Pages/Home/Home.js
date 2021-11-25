@@ -18,20 +18,20 @@ const Home = () => {
             <h2>MIDAS CRAVINGS</h2>
           </div>
 
-          <div className="row">
-            <div className="col">
+          <div className="home-text" id="">
+            <div>
               <h6>Sunday-Thursday</h6>
               <span>4-6PM</span>
             </div>
 
-            <div className="col">
+            <div>
               <h6>Friday-Saturday</h6>
               <span>4-10PM</span>
             </div>
 
-            <div className="col">
+            <div>
               <h6>09055506102</h6>
-              <h6>7 Achi Street Independence layout, Enugu. 400001.</h6>
+              <span>7 Achi Street Independence layout, Enugu. 400001.</span>
             </div>
           </div>
           <hr id="divider" />
@@ -66,7 +66,7 @@ const Home = () => {
 
               <div className="col-lg-5">
                 <div className="Aboutimage">
-                  <img src={SpiltOats} alt="" id="about-image" className="animate__animated animate__fadeInRightBig" />
+                  <img src={SpiltOats} alt="" id="about-image" />
                 </div>
               </div>
               <hr id="divider2" />
@@ -82,7 +82,7 @@ const Home = () => {
             <div className="row text-center" id="cusine-row">
               <div className="col-lg-5">
                 <div className="cusineimage">
-                  <img src={SpiltCoffee} alt="" id="cusine-image" className="animate__animated animate__fadeInLeftBig"/>
+                  <img src={SpiltCoffee} alt="" id="cusine-image"/>
                 </div>
               </div>
               <div className="col-lg-6">

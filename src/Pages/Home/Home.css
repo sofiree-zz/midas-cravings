@@ -1,3 +1,6 @@
+body{
+  color: #000;
+}
 .Topcontainer {
   position: relative;
   height: 100vh;
@@ -11,7 +14,6 @@
   content: "";
   background-image: url("../../Assets/Images/SpiltCoffee.jpg");
   background-size: cover;
-  
   position: absolute;
   top: 0px;
   right: 0px;
@@ -27,14 +29,22 @@
 #image-container {
   text-align: center;
   max-width: 100%;
-  padding: 15% 0% 0% 0%;
+  padding: 10rem 0rem 2rem 0rem;
 }
 #home-image {
-  max-width: 30%;
+  max-width: 28%;
 }
 
 h2 {
-  padding-top: 15px;
+  padding: 15px 0px 20px 0px;
+  
+}
+.home-text{
+display: flex;
+justify-content: space-between;
+  padding-top: 0rem;
+  font-weight: 400;
+  font-size: 15px
 }
 /*  */
 #about-containerfluid {
@@ -52,6 +62,7 @@ h2 {
 }
 .Abouttext {
   padding: 0px 16px;
+  margin-top: 9rem;
 }
 
 .Abouttext h1 {
@@ -71,7 +82,7 @@ h2 {
   border: none;
   border-top: 2px dotted #000;
   color: #fff;
-  background-color: #fff;
+  background-color: black;
   transform: rotate(90deg);
   max-width: 100px !important ;
   margin-top: 20px !important ;
@@ -81,12 +92,16 @@ h2 {
   border: none;
   border-top: 2px dotted #000;
   color: #fff;
-  background-color: #fff;
+  background-color: black;
   max-width: 150px !important ;
 }
 /*  */
+#cusine-container{
+  padding: 128px 32px;
+}
 #cusine-row {
   margin: auto;
+  height: 690.5px;
 }
 
 #cusine-image {
@@ -109,16 +124,44 @@ h2 {
 
 /* responsive site// media query */
 @media only screen and (max-width: 991px) {
+  .home-text{
+    flex-direction: column;
+   font-size: 14px;
+   padding-top: 5rem;
+ }
+ 
+ .home-text div{
+   margin-top: 0.5rem;
+ }
+  
   #about-container {
-    padding-top: 0px;
+    padding: 0px;
   }
+  #about-row{
+    height: auto;
+  }
+  .Abouttext{
+    padding: 0px;
+    margin-top: 0rem;
+  }
+  #image-container{
+    padding: 0%;
+  }
+  
   #cusine-image {
     margin-top: 0rem;
   }
   #cusine-row {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 9rem;
+    height: auto;
+    
+  }
+
+  #divider{
+    display: none;
+    margin: 0px;
+    padding: 0px;
   }
   #divider2 {
     display: none;

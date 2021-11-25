@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a href="/" className="navbar-brand">
-            <img src={Logo} alt="Midas Cravings" width="100" height="40" />
+            <img src={Logo} alt="Midas Cravings" width="auto" height="40"  />
           </a>
           {/* //toogler// */}
           <button

@@ -1,7 +1,7 @@
 #layout-header {
   position: fixed !important;
   transition: 0.5s ease-in-out;
-  background-color: #e7c67f;
+  background-color: transparent;
 }
 
 header {
@@ -43,6 +43,9 @@ header {
   #navbar-list li {
     border-bottom: 2px solid black;
   }
+  a.navbar-brand{
+    margin: 0px;
+  }
   .navbar-brand {
     transform: none;
     transition: none;
@@ -50,4 +53,5 @@ header {
     left: 0%;
     position: relative;
   }
+
 }
